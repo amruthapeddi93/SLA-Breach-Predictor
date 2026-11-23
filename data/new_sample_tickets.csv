@@ -1,0 +1,13 @@
+ticket_id,subject,priority,created_at,sla_hours,status,comments
+TKT-101,Login issue for new employees,High,2026-11-02 15:30,8,Open,A small group of employees cannot access the portal after password reset.
+TKT-102,Payment gateway intermittent failures,Critical,2026-11-02 16:20,4,Open,Some customers are seeing payment timeouts; transactions are retrying successfully.
+TKT-103,Dashboard loading slowly,Medium,2026-11-02 11:00,12,In Progress,Dashboard takes around 8 seconds to load during peak usage.
+TKT-104,Mobile app profile image not updating,Low,2026-11-01 17:00,48,Open,Profile image changes are not visible immediately on iOS devices.
+TKT-105,Production database connection failures,Critical,2026-11-02 10:00,8,In Progress,Connection pool is close to its limit and some requests are failing.
+TKT-106,Email notification delay,Medium,2026-11-02 08:00,24,Open,Password reset emails are delayed by approximately 10 minutes.
+TKT-107,Export report returns an error,High,2026-11-02 14:00,6,Open,"CSV export fails for reports containing more than 5,000 records."
+TKT-108,Search results occasionally missing,Low,2026-10-31 17:00,36,Open,Some recently added records do not appear in search results.
+TKT-109,API authentication failures,High,2026-11-02 12:00,4,In Progress,A partner integration is receiving intermittent 401 responses.
+TKT-110,File upload service unavailable,Critical,2026-11-02 04:00,8,Open,Uploads are failing for multiple customers; investigation is ongoing.
+TKT-111,Incorrect date format in invoice,Medium,2026-11-01 17:00,12,Open,Invoice date is displayed in the wrong regional format.
+TKT-112,Resolved: notification preferences issue,Low,2026-11-01 09:00,24,Resolved,The notification preference issue was fixed and verified by the reporter.
